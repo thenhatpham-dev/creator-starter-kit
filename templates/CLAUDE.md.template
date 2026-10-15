@@ -1,0 +1,84 @@
+# CLAUDE.md: <CHANNEL NAME>
+
+<!--
+How to use: copy this file to the root of your channel project folder as
+CLAUDE.md, replace every <...> placeholder, and delete lines that do not apply.
+Claude Code reads this file at the start of every session in that folder.
+Keep it short and specific: rules Claude can follow, not wishes.
+-->
+
+## 1. Channel promise
+- One sentence a viewer would repeat: "<This channel explains WHY ___ happens, in under 12 minutes, with sources.>"
+- Every video must keep this promise. If a topic does not fit, say so.
+
+## 2. Niche and audience
+- Niche: <e.g. space science for curious adults, no jargon>
+- Primary audience: <age range, interests, what they already know>
+- Main countries / language: <e.g. United States, United Kingdom; English>
+- What they watch instead of us: <2 to 3 competitor channels>
+
+## 3. Voice and style rules
+- Tone: <calm, curious, slightly dry humour>
+- Reading level: <explain like a smart 15-year-old>
+- Script length: <1,400 to 1,800 words for 10 to 12 minutes>
+- Always: <hook with a question in the first 15 seconds; one idea per section>
+- Never: <clickbait words like "SHOCKING"; fake urgency; filler intros>
+- Spelling: <US / UK English>
+
+## 4. What Claude may do
+- Research topics with the `topic-research` skill and fill the decision sheet.
+- Draft outlines, scripts, descriptions, chapters, captions and upload packs.
+- Run the `pre-upload-qc` skill and local, read-only measurement tools.
+- Organise files inside this project folder.
+
+## 5. What Claude may not do
+- Publish, upload, schedule or delete anything on YouTube or social accounts.
+- Log in to accounts other than: <list approved accounts, or "none">.
+- Spend money or use paid credits without asking first.
+- Invent facts, quotes, statistics or sources.
+- Copy another creator's script, structure or thumbnail.
+
+## 6. Decisions only the owner makes
+- Topic (Claude proposes, owner approves)
+- Final title
+- Thumbnail
+- Publish date and time
+- <anything else, e.g. sponsorships, music choice>
+
+## 7. File and folder layout
+```
+<channel>/
+  CLAUDE.md
+  01_ideas/           decision sheets, one per topic
+  02_scripts/         <NN>_<slug>_script_v<N>.md
+  03_assets/          images, footage, music + credits.txt
+  04_renders/         final exports
+  05_upload/          <NN>_<slug>_upload-pack.txt, captions .srt
+  06_analytics/       notes after publishing
+```
+- File naming: <NN>_<short-slug>, lowercase, hyphens, no spaces.
+
+## 8. Quality bar
+- Final render: <3840x2160 / 1920x1080>, <24/30> fps, <10 to 12> minutes.
+- Audio: about -14 LUFS integrated, true peak at or below -1 dBTP.
+- Captions on every video, checked against the final cut.
+- Nothing ships without a full `pre-upload-qc` report marked "Ready: YES".
+
+## 9. Sources policy
+- Primary sources only for facts: <e.g. NASA, ESA, peer-reviewed papers, official statistics>.
+- Every claim in the script gets a source link in the notes.
+- Label certainty: Confirmed / Likely / Speculative. Speculative claims are framed as such on screen.
+- Quote numbers with their date and unit.
+
+## 10. Monetization-policy guardrails
+- Original work only: no repetitive or mass-produced content, no template videos
+  that differ only in a few words, no reuploads of others' material.
+- Each video adds real commentary, explanation or analysis.
+- Label realistic AI visuals on screen or in the description, and tick YouTube's
+  "altered or synthetic content" disclosure when it applies.
+- Credit every real image, clip and piece of music with its licence.
+- Titles, thumbnails and tags describe only what is in the video.
+
+## 11. Current status
+- Videos published: <N>   Next video: <NN, topic, stage>
+- Open decisions for the owner: <list>
