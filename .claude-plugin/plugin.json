@@ -1,0 +1,11 @@
+{
+  "name": "creator-starter-kit",
+  "displayName": "Creator Starter Kit",
+  "version": "0.1.0",
+  "description": "Text-only starter kit for YouTube creators using Claude Code: a project memory template, a disciplined topic-research checklist, a 12-point pre-upload QC with an upload-pack template, and an optional local ffmpeg loudness meter. No network calls, no API keys, no media generation.",
+  "author": {
+    "name": "The Nhat Pham"
+  },
+  "license": "MIT",
+  "keywords": ["youtube", "creator", "content-workflow", "topic-research", "quality-check", "loudness", "faceless-channel"]
+}
