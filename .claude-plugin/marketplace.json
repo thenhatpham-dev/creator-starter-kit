@@ -1,0 +1,14 @@
+{
+  "name": "creator-starter-kit",
+  "description": "Single-plugin marketplace for installing Creator Starter Kit from a local folder or its own repository.",
+  "owner": {
+    "name": "The Nhat Pham"
+  },
+  "plugins": [
+    {
+      "name": "creator-starter-kit",
+      "source": "./",
+      "description": "Topic research checklist, pre-upload QC and a CLAUDE.md template for YouTube creators."
+    }
+  ]
+}
