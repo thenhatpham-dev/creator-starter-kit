@@ -7,5 +7,6 @@
     "name": "The Nhat Pham"
   },
   "license": "MIT",
+  "icon": "./icon.png",
   "keywords": ["youtube", "creator", "content-workflow", "topic-research", "quality-check", "loudness", "faceless-channel"]
 }
